@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paginaRadio </title>
+</head>
+<body>
+    <h2> Opcoes com Radio </h2>
+    <p>Qual transporte voce mais usa?</p>
+    <form> 
+        
+     <fieldset style="margin-right:75%";>
+        <legend> escolha!</legend>
+        <p>
+        <input id="bike" type="radio" name="shop" value="B"> Bike</p>
+        <p>
+        <input type="radio" name="shop" value="C"> Carro</p>
+        <p>
+        <input type="radio" name="shop" value="M"> Moto</p>
+        <p>
+        <input type="radio" name="shop" value="O"> Onibus</p>
+     </fieldset>       
+
+
+    </form>
+    <script>
+        function haha(){
+            let valor = document.getElementById("bike").value ;
+            console.log(valor)
+
+        }
+        haha()
+    </script>
+
+
+</body>
+</html>
